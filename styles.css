@@ -1,10 +1,25 @@
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
+}
+.card {
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: #f8df1f;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 15px;
+}
+.heading {
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #050500;
+  font-weight: 500;
 }
 nav {
   font-family: 'Nunito Sans', sans-serif;
-  background-color: #FFDB34ED;
+  background-color: #f8df1f;
+  padding: 0 15px;
 }
 nav ul {
   margin: 0 40px 30px 50px;
@@ -22,7 +37,7 @@ nav ul li {
   position: relative;
 }
 span {
-  color: red;
+  color: #ee252f;
 }
 .logo {
   z-index: 10;
@@ -30,67 +45,83 @@ span {
 }
 .bob h2 {
   margin: 400px 0 0 80px;
+  font-size: 30px;
+  color: #050500;
+  font-weight: 500px;
+  text-transform: uppercase;
 }
 p {
-  width: 100ch;
+  width: 60ch;
   margin: 10px 0 0 80px;
+  font-size: 30px;
+  color: #080801;
+  font-weight: 500;
 }
 #order button {
   font-family: 'Nunito Sans', sans-serif;
-  background-color: #FFDB34ED;
+  background-color: #f8df1f;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 15px;
   margin: 0 0 0 600px;
   padding: 20px;
-  border-radius: 15px;
-  width: 150px;
+  width: 180px;
   height: 60px;
-  text-transform: uppercase;
 }
 .burger {
-  margin: -100px 0px 0 900px;
+  margin: -300px 0px 0 990px;
 }
 #menu button {
   font-family: 'Nunito Sans', sans-serif;
-  background-color: #FFDB34ED;
+  background-color: #f8df1f;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 15px;
   margin: 20px 0 0 80px;
   padding: 20px;
-  border-radius: 15px;
   width: 150px;
   height: 60px;
-  text-transform: uppercase;
 }
 .contact {
-  background-color: lightgray;
+  background-color: #f3f3f3;
 }
 .dine h2 {
-  background-color: lightgray;
-  margin: 100px 0 0 0px;
-  padding: 60px 0 0 500px;
+  background-color: #f3f3f3;
+  margin: 120px 0 0 0px;
+  padding: 60px 0 0 480px;
   text-transform: uppercase;
+  font-size: 30px;
+  color: #050500;
+  font-weight: 500;
 }
 .out p {
-  width: 100ch;
-  margin: 10px 0 0 500px;
+  width: 60ch;
+  margin: 10px 0 0 480px;
 }
 .headshot {
   margin: -150px 0 0 200px;
 }
 #contact button {
-  font-family: 'Nunito Sans', sans-serif;
-  background-color: #FFDB34ED;
   margin: 20px 0 0 500px;
   padding: 20px;
-  border-radius: 15px;
-  width: 150px;
-  height: 60px;
+  width: 180px;
+  height: 80px;
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: #f8df1f;
   text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 15px;
 }
 hr {
   height: 20px;
   border-width: 0;
-  background-color: #FFDB34ED;
+  background-color: #f8df1f;
 }
 footer {
-  background-color: black;
+  background-color: #080801;
   text-decoration-line: overline;
 }
 .end {

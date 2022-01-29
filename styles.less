@@ -1,12 +1,16 @@
 *{
-    padding: 0;
-    margin: 0;
+    margin:0;
+    padding:0;
 }
+
+@import "variables.less";
+@import "mixins.less";
 
 
 nav{
-    font-family: 'Nunito Sans', sans-serif; 
-    background-color: #FFDB34ED;
+    font-family: @primary-font;
+    background-color: @yellow;
+    padding: 0 15px;
 
 }
 
@@ -31,7 +35,7 @@ nav ul li{
 }
 
 span {
-    color: red;
+    color: @red;
 }
 
 .logo{
@@ -43,54 +47,58 @@ span {
 
 .bob h2{
     margin: 400px 0 0 80px;
+    font-size: 30px;
+    color: #050500;
+    font-weight: 500px;
+    text-transform: uppercase;
 }
 
 p{
-    width: 100ch;
+    width: 60ch;
     margin: 10px 0 0 80px;
+    font-size: 30px;
+    color: @black;
+    font-weight: 500;
+    
 }
 
 #order button{
-    font-family: 'Nunito Sans', sans-serif; 
-    background-color: #FFDB34ED;
+    .card();
     margin: 0 0 0 600px;
     padding: 20px;
-    border-radius: 15px;
-    width: 150px;
+    width: 180px;
     height: 60px;
-    text-transform: uppercase;
+ ;
   
 }
 
 .burger {
-    margin: -100px 0px 0 900px ;
+    margin: -300px 0px 0 990px ;
 }
 
 #menu button {
-    font-family: 'Nunito Sans', sans-serif; 
-    background-color: #FFDB34ED;
+    .card();
     margin: 20px 0 0 80px;
     padding: 20px;
-    border-radius: 15px;
     width: 150px;
     height: 60px;
-    text-transform: uppercase;
+  
 }
 
 .contact{
-    background-color: lightgray;
+    background-color: @light-grey;
 }
 
 .dine h2{
-    background-color: lightgray;
-    margin: 100px 0 0 0px;
-    padding: 60px 0 0 500px;
-    text-transform: uppercase;
+    background-color: @light-grey;
+    margin: 120px 0 0 0px;
+    padding: 60px 0 0 480px;
+   .heading();
 }
 
 .out p{
-    width: 100ch;
-    margin: 10px 0 0 500px;
+    width: 60ch;
+    margin: 10px 0 0 480px;
 
 }
 
@@ -99,24 +107,22 @@ p{
 }
 
 #contact button {
-    font-family: 'Nunito Sans', sans-serif; 
-    background-color: #FFDB34ED;
     margin: 20px 0 0 500px;
     padding: 20px;
-    border-radius: 15px;
-    width: 150px;
-    height: 60px;
-    text-transform: uppercase;
+    width: 180px;
+    height: 80px;
+    .card();
+ 
 }
 
 hr {
     height:20px;
     border-width:0;
-    background-color: #FFDB34ED;
+    background-color: @yellow;
   }
 
 footer {
-    background-color: black;
+    background-color: @black;
     text-decoration-line: overline;
    
 }
