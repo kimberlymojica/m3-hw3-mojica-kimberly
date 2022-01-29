@@ -28,17 +28,72 @@ span {
   z-index: 10;
   margin: -550px 200px 40px 450px;
 }
-.orderbutton {
-  margin: 50px 100px 0 580px;
+.bob h2 {
+  margin: 400px 0 0 80px;
 }
-.button {
+p {
+  width: 100ch;
+  margin: 10px 0 0 80px;
+}
+#order button {
   font-family: 'Nunito Sans', sans-serif;
+  background-color: #FFDB34ED;
+  margin: 0 0 0 600px;
   padding: 20px;
-  color: red;
-  background: yellow;
+  border-radius: 15px;
+  width: 150px;
+  height: 60px;
+  text-transform: uppercase;
 }
-h2 {
+.burger {
+  margin: -100px 0px 0 900px;
+}
+#menu button {
   font-family: 'Nunito Sans', sans-serif;
-  background-color: white;
-  margin: 250px 0 0 0;
+  background-color: #FFDB34ED;
+  margin: 20px 0 0 80px;
+  padding: 20px;
+  border-radius: 15px;
+  width: 150px;
+  height: 60px;
+  text-transform: uppercase;
+}
+.contact {
+  background-color: lightgray;
+}
+.dine h2 {
+  background-color: lightgray;
+  margin: 100px 0 0 0px;
+  padding: 60px 0 0 500px;
+  text-transform: uppercase;
+}
+.out p {
+  width: 100ch;
+  margin: 10px 0 0 500px;
+}
+.headshot {
+  margin: -150px 0 0 200px;
+}
+#contact button {
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: #FFDB34ED;
+  margin: 20px 0 0 500px;
+  padding: 20px;
+  border-radius: 15px;
+  width: 150px;
+  height: 60px;
+  text-transform: uppercase;
+}
+hr {
+  height: 20px;
+  border-width: 0;
+  background-color: #FFDB34ED;
+}
+footer {
+  background-color: black;
+  text-decoration-line: overline;
+}
+.end {
+  margin: 0px 0 0 500px;
+  padding: 40px 0 0 0;
 }
